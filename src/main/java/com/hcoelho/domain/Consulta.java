@@ -24,7 +24,6 @@ public class Consulta implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
-	@NotNull(message = "ID do Animal é obrigatório")
 	private Integer id;
 	
 	@NotNull(message = "Data é obrigatória")
